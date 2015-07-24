@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\pre-dexed\debug\classes-9272e4f4ee1fa5be58e7d854216da9e2c3e28c26.jar" />
+    </item>
+    <item
+        jar="C:\Users\LG-11-09\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-6ab27e42abcbce7e9fae367a649e158cd51cf1fd.jar" />
+    </item>
+    <item
+        jar="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\pre-dexed\debug\classes-c00b4240b98b4c01c4b9bde0f95ac9980f8388e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\LG-11-09\AndroidStudioProjects\BloodDonate1\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-fbb897f1fccb2b7257ff86cf0ea244049d287ba8.jar" />
+    </item>
+
+</items>

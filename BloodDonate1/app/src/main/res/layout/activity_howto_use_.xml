@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lg_11_09.blooddonate.HowtoUse_Activity"
+    android:background="@android:color/background_light">
+
+
+    <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:textAppearance="?android:attr/textAppearanceLarge"
+  android:text="How To Use"
+  android:id="@+id/textView13"
+  android:textSize="25dp"
+  android:textStyle="bold|italic"
+  android:textColor="#ffb50021"
+  android:layout_alignParentTop="true"
+  android:layout_centerHorizontal="true" />
+
+   <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/bck"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold|italic"
+        android:background="#ffb50021"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="false"
+        android:layout_above="@+id/bck"
+        android:layout_marginTop="40dp">
+
+
+        <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="500dp"
+          android:touchscreenBlocksFocus="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+      <TextView android:text=" If there is a Need Of Blood, a list of donors having the requested blood group will be provided to the requester, without any need of  login or sign-up by the requester.  " android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/background_light"
+          android:textColor="#ffb50021"
+          android:textSize="18dp"
+          android:textStyle="italic"
+          android:id="@+id/textView14"
+          android:layout_below="@+id/textView28"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true" />
+
+
+            <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="Donate Blood"
+          android:id="@+id/textView15"
+          android:textColor="#ffb50021"
+          android:textSize="20sp"
+          android:textStyle="bold|italic"
+                android:layout_marginTop="61dp"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="A user can sign-up as a donor by providing his/her blood group and contact details.   "
+          android:id="@+id/textView20"
+          android:layout_below="@+id/textView15"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:textColor="#ffb50021"
+          android:textSize="18dp"
+          android:layout_marginBottom="5dp"
+          android:textStyle="italic" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="He/she can edit their details anytime,by logging-in using their name and phone number."
+          android:id="@+id/textView21"
+          android:layout_below="@+id/textView20"
+          android:layout_centerHorizontal="true"
+          android:textColor="#ffb50021"
+          android:textSize="18dp"
+          android:layout_marginBottom="5dp"
+          android:textStyle="italic" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text=" He/she can opt-out anytime after logging-in and selecting the opt-out option."
+          android:id="@+id/textView22"
+          android:layout_below="@+id/textView21"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentEnd="true"
+          android:textColor="#ffb50021"
+          android:textSize="18dp"
+          android:textStyle="italic" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Need Blood"
+          android:id="@+id/textView28"
+          android:textColor="#ffb50021"
+          android:layout_below="@+id/textView13"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:layout_marginTop="25dp"
+          android:textSize="20dp"
+          android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
